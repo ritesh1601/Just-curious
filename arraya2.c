@@ -2,9 +2,9 @@
 int main()
 {
     int size;
-    printf("Enter the number of elements you will take \n(Should be less than 25)\n= ");
+    printf("Enter the no. of elements in array A \n(Should be less than 25)\n= ");
     scanf("%d",&size);
-    int Array[size],sum=0;
+    int Array[size];
     printf("Enter the numbers\n");
     for (int i=0;i<size;i++)
     {
@@ -26,17 +26,17 @@ int main()
           k++;
         }
     }
-    printf("\nYour Input elements\n\n");
+    printf("\nArray A:-\n\n");
     for(int i=0;i<size;i++)
     {
         printf("%d\t",Array[i]);
     }
-    printf("\nPositive elements\n\n");
+    printf("\nArray B of +ve elements\n\n");
     for(int i=0;i<k;i++)
     {
         printf("%d\t",C[i]);
     }
-    printf("\nNegative elements\n\n");
+    printf("\nArray C of -ve elements\n\n");
     for(int i=0;i<j;i++)
     {
         printf("%d\t",B[i]);

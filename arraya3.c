@@ -3,7 +3,7 @@
 int main()
 {
     int size;
-    printf("Enter the number of elements you will take\n(Should be less than 25)\n= ");
+    printf("Enter the no. of elements in array A \n(Should be less than 25)\n= ");
     scanf("%d", &size);
     int Array[size];
     printf("Enter the numbers\n");
